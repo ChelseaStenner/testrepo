@@ -55,14 +55,14 @@ declare -a toBackup
 for file in * # [TASK 9]
 do
   # [TASK 10]
-  if ((`date -r $file +%s` -gt $yesterdayTS))
+  if (( $(date -r "$file" +%s) > $yesterdayTS ))
   then
-    toBackup+=($file) # [TASK 11]
+    toBackup+=("$file") # [TASK 11]
   fi
 done
 
 # [TASK 12]
 tar -czvf $backupFileName ${toBackup[@]}
 # [TASK 13]
-mv $backupFileName $destAbsPath
+mv "$backupFileName" "$destDirAbsPath"
 # Congratulations! You completed the final project for this course!
