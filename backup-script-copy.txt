@@ -1,0 +1,1 @@
+-rwxr--r-- 1 root root 1369 May 18 23:35 /usr/local/bin/backup.sh
