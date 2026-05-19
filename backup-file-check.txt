@@ -1,3 +1,4 @@
+total 56
 -rw-r--r-- 1 theia users 38472 May 18 23:31 'backup-[1779161471].tar.gz'
 -rwxr--r-- 1 theia users  1369 May 18 23:31  backup.sh
 drwxr-sr-x 2 theia users  4096 May 18 23:31  important-documents
